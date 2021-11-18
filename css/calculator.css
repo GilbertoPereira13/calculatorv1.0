@@ -1,0 +1,134 @@
+/* --------- Reset CSS --------- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+	font-family: 'Bebas Neue', cursive;
+	color: white;
+}
+body{
+	background: linear-gradient(45deg, rgba(23,121,103,1) 0%, rgba(31,171,145,1) 50%, rgba(109,227,206,1) 100%);
+}
+.logoNTZ{
+	position: absolute;
+	bottom: 2%;
+	margin-left: 2%;
+
+}
+/* Background-color*/
+.bgcolor{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.calcTitle{
+	font-size: 50px;
+	letter-spacing: 2px;	
+	font-family: 'Bebas Neue', cursive;
+	color: white;
+}
+
+/* centralizing the calculator */
+.container{
+	width: 340px;
+	height: 560px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+/* calculator display style*/
+.display{
+	width: 300px;
+	height: 150px;
+	margin: 14px 0 8px 0;
+	background-color: #2B5759;
+	border-radius: 15px;
+	display: flex;
+	font-family:'Bebas Neue', cursive;
+	font-size: 40px;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.buttons{
+	width: 300px;
+	height: 375px;
+}
+
+.largeButton{
+	width: 147.23px;
+	height: 70px;
+	border-radius: 15px;
+	border: none;
+	font-size: 30px;
+	cursor: pointer;
+}
+
+.normalButton{
+	width: 70.12px;
+	height: 70px;
+	border-radius: 15px;
+	border: none;
+	font-size: 30px;
+	cursor: pointer;
+}
+
+.color1{
+	background-color: #72D5DB;
+}
+.color1:hover{
+	background-color: #55B8BE;
+}
+
+.color2{
+	background-color: #16797F;
+}
+.color2:hover{
+	background-color: #01646A;
+}
